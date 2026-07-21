@@ -1,0 +1,104 @@
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPACE KEY - للعقارات والتشطيبات | مفتاح مساحتك</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Cairo', sans-serif; }
+        body { background: #0a0a0a; color: #fff; }
+        .container { width: 90%; max-width: 1200px; margin: auto; }
+        
+        /* الهيدر */
+        header { background: #000; padding: 15px 0; position: fixed; width: 100%; top: 0; z-index: 1000; }
+        nav { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 24px; font-weight: bold; color: #D4AF37; }
+        .menu a { color: #fff; text-decoration: none; margin: 0 15px; }
+        .btn-whatsapp { background: #25D366; color: #fff; padding: 10px 20px; border-radius: 8px; text-decoration: none; }
+
+        /* البانر */
+        .hero { background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') center/cover; height: 90vh; display: flex; align-items: center; text-align: center; }
+        .hero h1 { font-size: 48px; color: #D4AF37; margin-bottom: 20px; }
+        .hero p { font-size: 20px; margin-bottom: 30px; }
+        .btn { background: #D4AF37; color: #000; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; margin: 5px; display: inline-block; }
+
+        /* الخدمات */
+        .services { padding: 80px 0; background: #111; }
+        .services h2 { text-align: center; font-size: 36px; margin-bottom: 50px; color: #D4AF37; }
+        .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .card { background: #1a1a1a; padding: 30px; border-radius: 12px; text-align: center; border: 1px solid #D4AF37; }
+
+        /* العرض */
+        .offer { background: #D4AF37; color: #000; padding: 60px 0; text-align: center; }
+        .offer h2 { font-size: 32px; margin-bottom: 15px; }
+
+        /* الفوتر */
+        footer { background: #000; padding: 40px 0; text-align: center; }
+        
+        /* زرار واتساب ثابت */
+        .whatsapp-float { position: fixed; bottom: 20px; left: 20px; background: #25D366; color: #fff; padding: 15px 20px; border-radius: 50px; text-decoration: none; font-weight: bold; z-index: 999; }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="logo">SPACE KEY</div>
+            <div class="menu">
+                <a href="#">الرئيسية</a>
+                <a href="#services">خدماتنا</a>
+                <a href="#contact">تواصل</a>
+            </div>
+            <a href="https://wa.me/201xxxxxxxxx" class="btn-whatsapp">واتساب</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>مفتاح مساحتك... من الطوب للتشطيب 🔑</h1>
+            <p>بنبيع وبنشطب وبنسلمك على المفتاح</p>
+            <a href="#contact" class="btn">اطلب معاينة مجانية</a>
+            <a href="#" class="btn">شوف عقاراتنا</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h2>خدماتنا</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>بيع وشراء عقارات</h3>
+                    <p>شقق وفيلات متشطبة وجاهزة للسكن في أفضل المواقع</p>
+                </div>
+                <div class="card">
+                    <h3>تشطيبات متكاملة</h3>
+                    <p>من المحارة للديكور بأعلى جودة وأسرع وقت</p>
+                </div>
+                <div class="card">
+                    <h3>تصميم 3D</h3>
+                    <p>شوف شقتك قبل ما نبدأ وشطبها بالشكل اللي في بالك</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="offer">
+        <div class="container">
+            <h2>عرض الافتتاح 🎁</h2>
+            <p>معاينة + مقايسة + تصميم 3D مجاناً مع أي تعاقد تشطيب</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <h3>SPACE KEY</h3>
+            <p>للتواصل: 01xxxxxxxxx</p>
+            <p>العنوان: كفرة نصار، الجيزة</p>
+            <p>© 2026 SPACE KEY. جميع الحقوق محفوظة</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/201011904232" class="whatsapp-float">واتساب</a>
+
+</body>
+</html>
